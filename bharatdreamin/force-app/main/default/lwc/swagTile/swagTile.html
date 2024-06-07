@@ -1,0 +1,30 @@
+<template>
+    
+    
+    
+      
+
+        <!-- With an avatar -->
+        <div style="width: 40%; margin-bottom: 1%">
+        <lightning-card>
+        
+           
+            <div class="aline">
+                
+                <img src={swag.Image_URL__c} 
+                        class="image"
+                        alt="swag" />
+                <div>
+                    <ul class="slds-list_vertical slds-has-dividers_right list" >
+                        <li class="font" >{swag.Label}</li>
+                        <li class="font point" lwc:ref="myPoints" value={swag.Point__c}>{swag.Point__c}</li>
+                        <lightning-button label="Redeem" onclick={handleClick}></lightning-button>
+                    </ul>
+                </div>
+            </div>
+        
+        
+    </lightning-card>
+</div>
+    
+</template>

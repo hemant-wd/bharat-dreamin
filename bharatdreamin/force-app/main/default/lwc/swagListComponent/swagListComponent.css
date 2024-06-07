@@ -1,0 +1,17 @@
+.align{
+    border: groove;
+    display: inline-flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.font{
+    font-size: xxx-large;
+    font-family: cursive;
+}
+.image{
+    height: 10rem;
+    width: 10rem;
+}

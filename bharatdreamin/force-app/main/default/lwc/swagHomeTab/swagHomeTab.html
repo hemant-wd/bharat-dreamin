@@ -1,0 +1,96 @@
+<template>
+    <div>
+        <div class="main-div">
+            <p class="slds-text-align_center"><img style="width: 80%;" src={logo} /></p>
+            <div class="slds-is-relative">
+                <p class="slds-text-align_center"><img style="width: 300px;" src={avatar} /></p>
+                <img class="slds-is-absolute custom_avatar" src={teamlogo}/>
+            </div>
+            <div class="slds-box upper-card">
+               
+                <h2 class="name">{fname} {lname}</h2>
+                <h3 class="company">{company}</h3>
+                  <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-2">
+                        <h3 class="other">Rank</h3>
+                  <h3 class="other point-color">{rank}</h3>
+                    </div>
+                    <div class="slds-col slds-size_1-of-2">
+                        <h3 class="other">Points</h3>
+                  <h3 class="other point-color">{points}</h3>
+                    </div>
+                  </div>
+              </div>  
+            <div class="slds-box lower-card">
+                    <div class="lower-card-inner-div">
+                        <div class="main-flex font">
+                            <div class="inner-flex">
+                                <div class="cards" onclick={handleQuest}>
+                                    <div >
+                                        <img src={agenda} class="icon-image"/>
+
+                                    </div>
+                                    <h4 class="top_border">
+                                        Quest
+                                    </h4>
+                                </div>
+                                <div class="cards" onclick={handleRedeem}>
+                                    <div >
+                                        <img src={qwiz} class="icon-image"/>
+    
+                                    </div>
+                                    <h4 class="top_border">
+                                        Redeem
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="inner-flex">
+                                <div class="cards" onclick={handlePoint}>
+                                    <div >
+                                        <img src={swag} class="icon-image"/>
+
+                                    </div>
+
+                                    <h4 class="top_border">
+                                        Point Board
+                                    </h4>
+                                </div>
+                                <div class="cards" onclick={handleSponsors}>
+                                    <div >
+                                        <img src={networking} class="icon-image"/>
+    
+                                    </div>
+                                    <h4 class="top_border">
+                                        Sponsors
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="inner-flex">
+                                <div class="cards" onclick={handleSpeakers}>
+                                    <div >
+                                        <img src={speaker} class="icon-image"/>
+
+                                    </div>
+                                    <h4 class="top_border">
+                                        Speakers
+                                    </h4>
+                                </div>
+                                <div class="cards" onclick={handleProfile}>
+                                    <div >
+                                        <img src={myProfile} class="icon-image"/>
+    
+                                    </div>
+                                    <h4 class="top_border">
+                                        My Profile
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+            </div>
+        </div>
+
+    </div>
+    
+</template>

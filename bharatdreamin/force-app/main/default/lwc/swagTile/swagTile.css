@@ -1,0 +1,22 @@
+.image{
+    height: 10rem;
+    width: 10rem;
+    
+}
+.list{
+    display: flex;
+                flex-direction: column;
+                align-items: center;
+}
+.aline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font{
+    font-size: medium;
+}
+.point{
+    font-family: math;
+    color: green;
+}

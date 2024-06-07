@@ -1,0 +1,191 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url("/resource/fontFamily/static/PlayfairDisplay-Black.ttf") format("truetype");
+  }
+
+.slds-align_absolute-center{
+    flex-direction: column;
+}
+.aline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font{
+    font-size: 3em;
+    font-weight: 500;
+    font-family: PlayfairDisplay
+
+}
+:host{
+    display: inherit;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(255,225,212,1) 0%, rgba(255,255,255,1) 50%, rgba(208,255,227,1) 100%);
+}
+.slds-card{
+    opacity: 0.8 !important;
+    background: none !important;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.upper-card-inner-div{
+    height: 25vh;
+    background: rgb(250, 226, 214);
+    border-radius: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+div.slds-card__header{
+    display: none;
+}
+div.slds-card__body{
+    padding: 0;
+    margin: 0;
+}
+.main-flex{
+    display: flex;
+    flex-direction: column;
+}
+.inner-flex{
+    display: flex;
+    display: flex;
+    /* align-content: space-around; */
+    justify-content: space-around;
+    align-items: center;
+}
+.teamlogo{
+    height: auto;
+    
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px;
+    padding: 10px;
+    border-color: rgb(250, 226, 214) !important;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 250px;
+    width: 300px
+
+}
+.imd-div{
+    height: 8vh;
+    width: 8vh;
+    background: tan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.ini-font{
+    font-size: xxx-large;
+    color: #f8f9fa;
+}
+.left-position{
+    position: relative;
+    top: 50px;
+    left: 25px
+}
+.right-position{
+    position: relative;
+    top: 50px;
+    right: 25px
+}
+.main-font{
+
+}
+
+.lower-card{border: 2px solid;
+    border-radius: 10px;
+   border-color: transparent !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height: 100px;
+    margin: 0px 50px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+.upper-card{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: transparent !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height: 150px;
+    margin: -95px 50px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 120px;
+    text-align: center;
+}
+.custom_avatar{
+    color: white;
+    font-size: 6em;
+    font-weight: 700;
+    top: calc(65% - 100px);
+    left: calc(54% - 100px);
+  /*  width: 200px;
+    height: 200px;*/
+    line-height: 200px;
+    text-align: center;
+    width: 130px;
+}
+
+.name{
+    font-size: 5em;
+    font-weight: 700;
+    font-family: PlayfairDisplay
+}
+.company{
+    font-size: 3em;
+    font-weight: 500;
+    font-family: PlayfairDisplay
+}
+.other{
+    font-size: 4em;
+    font-weight: 600;
+    color:lightsalmon;
+
+    font-family: PlayfairDisplay
+}
+.top_border{
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 0px;
+    border-top: 2px solid rgb(250, 226, 214);
+    font-family: PlayfairDisplay
+}
+
+.icon-image{
+    height: 5vh;
+    object-fit: cover;
+    filter: invert(14%) sepia(50%) saturate(2311%) hue-rotate(193deg) brightness(95%) contrast(102%);
+
+}
+.point-color{
+    color:lightsalmon;
+}
